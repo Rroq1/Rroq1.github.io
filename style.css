@@ -1,1 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
 
+body {
+    font-family: 'Open sans';
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/outer\ fond.png);
+    background-size: cover;
+}
+
+.menu {
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.menu a { 
+    color : white;
+}
