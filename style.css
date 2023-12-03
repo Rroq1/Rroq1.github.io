@@ -21,10 +21,19 @@ header {
     padding: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     box-sizing: border-box;
 }
 
 .menu a { 
     color : white;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    margin: 0 30px;
 }
