@@ -29,7 +29,8 @@ header {
     align-items: center;
     width: 100%;
     box-sizing: border-box;
-    font-size: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .menu a { 
