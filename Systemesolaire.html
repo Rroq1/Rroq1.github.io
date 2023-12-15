@@ -12,9 +12,6 @@ and open the template in the editor. <>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <h1>
-            Outer Wilds
-        </h1>
         <div class="menu">
             <ul>
                 <li><a href="index.html">Accueil</a></li>
@@ -25,8 +22,22 @@ and open the template in the editor. <>
             </ul>
         </div>
         
-        <img src="images/systeme.png" alt="Systeme solaire" style="width: 100%"/>
 
         <header></header>
+
+        <div class="image-container">
+            <img src="images/logo odyssey.png" alt="Votre image">
+            <button class="invisible-button" onclick="scrollDown()"></button>
+        </div>
+
+        <script>
+            function scrollDown() {     
+            // Faites défiler la page vers le bas
+            window.scrollTo(0, window.innerHeight);
+            }
+        </script>
+
+        
     </body>
 </html>
+    
