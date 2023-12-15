@@ -1,0 +1,62 @@
+html {
+    overflow-x: hidden;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Arial';
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/systeme.png);
+    background-size: cover;
+}
+
+.menu {
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu a { 
+    color : white;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    margin: 0 30px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.invisible-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
