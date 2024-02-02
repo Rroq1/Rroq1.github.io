@@ -29,12 +29,19 @@ header {
     align-items: center;
     width: 100%;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.4s linear;
 }
 
 .menu a { 
-    color : white;
+    color : #AACFF3;
+}
+
+.menu a:hover {
+    color: white;
 }
 
 .menu ul {
@@ -44,7 +51,6 @@ header {
 .menu ul li {
     margin: 0 30px;
 }
-
 .image-container {
     position: relative;
     display: inline-block;

@@ -19,7 +19,10 @@ header {
     width: 100vw;
     background-image: url(images/outer\ wilds\ titre.png);
     background-size: cover;
+    margin-bottom: 20px;
 }
+
+/*Nivagation*/
 
 .menu {
     position: absolute;
@@ -29,12 +32,19 @@ header {
     align-items: center;
     width: 100%;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.4s linear;
 }
 
 .menu a { 
-    color : white;
+    color : #AACFF3;
+}
+
+.menu a:hover {
+    color: white;
 }
 
 .menu ul {
@@ -43,4 +53,80 @@ header {
 
 .menu ul li {
     margin: 0 30px;
+}
+
+
+
+.test {
+    text-align: justify;
+    border: 6px outset #508bff;
+    margin-left: 240px;
+    margin-right: auto;
+    width: 24em;
+    color: black;
+}
+
+/*Outer Wilds*/
+
+.test2 {
+    text-align: justify;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 240px;
+    margin-right: auto;
+    width: 24em;
+    color: black;
+    background-color: #AACFF3;
+    box-shadow: 9px 10px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.test2 {
+    margin-left: 50px;
+    margin-right: auto;
+
+}
+
+/*Mobius Digital*/
+
+.test3 {
+    text-align: justify;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 240px;
+    margin-right: auto;
+    width: 24em;
+    color: black;
+    background-color: #AACFF3;
+    box-shadow: 9px 10px 0px 0px rgba(0, 0, 0, 1);
+
+}
+
+.test3 { 
+    margin-left: 850px;
+    margin-right: auto;
+
+}
+
+/* Test
+.mobius {
+    width: 10%; 
+    height: auto; 
+}
+/*
+
+/*Crédits*/
+
+.b {
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+    padding: 25px;
+}
+
+/*Logo OW*/
+.logo {
+
+    padding: 100px;
+
 }
