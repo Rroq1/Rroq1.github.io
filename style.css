@@ -55,8 +55,6 @@ header {
     margin: 0 30px;
 }
 
-
-
 .test {
     text-align: justify;
     border: 6px outset #508bff;
@@ -128,5 +126,11 @@ header {
 .logo {
 
     padding: 100px;
+
+}
+
+.oui {
+    margin-left: 240px;
+    margin-right: auto;
 
 }
