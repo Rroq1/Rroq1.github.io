@@ -90,7 +90,8 @@ header {
     text-align: justify;
     padding: 10px;
     border-radius: 20px;
-    margin-left: auto;
+    margin-left: 240px;
+    margin-right: auto;
     width: 24em;
     color: black;
     background-color: #AACFF3;
@@ -99,8 +100,8 @@ header {
 }
 
 .test3 { 
-    margin-left: 850px;
-    margin-right: auto;
+    margin-left: auto;
+    margin-right: 50px;
 
 }
 
