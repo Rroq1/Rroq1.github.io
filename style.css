@@ -1,7 +1,3 @@
-html {
-    overflow-x: hidden;
-}
-
 
 * {
     margin: 0;
@@ -12,11 +8,15 @@ html {
 
 body {
     font-family: 'Arial';
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
 }
 
 header {
-    height: 100vh;
-    width: 100vw;
+    height: 90vh;
+    width: 100%;
     background-image: url(images/outer\ wilds\ titre.png);
     background-size: cover;
     margin-bottom: 20px;
@@ -55,42 +55,83 @@ header {
     margin: 0 30px;
 }
 
-.test {
-    text-align: justify;
-    border: 6px outset #508bff;
-    margin-left: 240px;
-    margin-right: auto;
-    width: 24em;
-    color: black;
+/*Logo OW*/
+.logo {
+    margin-left: 1550px;
+    margin-top: 75px;
+	height: 120px;
 }
+
+.logo:hover {
+    opacity: 0.6;
+}
+
 
 /*Outer Wilds*/
 
 .test2 {
     text-align: justify;
-    padding: 10px;
+    padding: 15px;
     border-radius: 20px;
     margin-left: 240px;
     margin-right: auto;
     width: 24em;
     color: black;
     background-color: #AACFF3;
-    box-shadow: 9px 10px 0px 0px rgba(0, 0, 0, 1);
+    box-shadow: -9px 10px 0px 0px rgba(0, 0, 0, 1);
 }
 
 .test2 {
-    margin-left: 50px;
-    margin-right: auto;
+    margin-left: 150px;
+}
 
+/*Atrien*/
+.atrien {
+    margin-top: -180px;
+    margin-left: 350px;
+}
+
+/*Âtrebois*/
+
+.atrebois {
+    width: 280px; 
+    height: 280px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin-left: 220px;
+}
+
+  
+.atrebois img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+/*Vaisseau*/
+
+.vaisseau {
+    width: 280px; 
+    height: 280px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin-left: 1400px;
+    margin-top: -300px;
+}
+  
+.vaisseau img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
 }
 
 /*Mobius Digital*/
 
 .test3 {
     text-align: justify;
-    padding: 10px;
+    padding: 15px;
     border-radius: 20px;
-    margin-left: 240px;
+    margin-left: auto;
     margin-right: auto;
     width: 24em;
     color: black;
@@ -99,38 +140,36 @@ header {
 
 }
 
-.test3 { 
+.test3 {
+    margin-top: -310px;
+    margin-right: 150px;
+}
+
+/*Vidéo Youtube*/
+
+.youtube {
+    text-align: justify;
+    padding: 15px;
+    border-radius: 20px;
     margin-left: auto;
-    margin-right: 50px;
+    margin-right: auto;
+    margin-top: -250px;
+    width: 30em;
+    color: black;
+    background-color: #AACFF3;
+    box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 1);
 
 }
-
-/* Test
-.mobius {
-    width: 10%; 
-    height: auto; 
-}
-/*
 
 /*Crédits*/
 
 .b {
-    text-align: justify;
-    margin-right: auto;
-    margin-left: auto;
-    color: black;
-    padding: 25px;
+    display: inline-block;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border: 3px solid #3498db;
+    margin-top: 50px;
+    margin-left: 600px;
 }
 
-/*Logo OW*/
-.logo {
-
-    padding: 100px;
-
-}
-
-.oui {
-    margin-left: 240px;
-    margin-right: auto;
-
-}
