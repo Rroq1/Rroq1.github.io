@@ -367,7 +367,7 @@ footer {
 }
 
 .titre1 {
-    font-size: 20px;
+     font-size: 5vw;
     margin-bottom: 20px;
     font-weight: bold;
     color: #f18537;
@@ -390,7 +390,29 @@ footer {
 }
 
 .titre2 {
-    font-size: 18px;
+    font-size: 4vw;
     font-weight: bold;
     color: #f18537;
+}
+
+
+/* Ajustements pour petits écrans */
+@media (max-width: 768px) {
+    .titre1 {
+        font-size: 6vw; 
+    }
+
+    .titre2 {
+        font-size: 5vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .titre1 {
+        font-size: 8vw; 
+    }
+
+    .titre2 {
+        font-size: 6vw;
+    }
 }
