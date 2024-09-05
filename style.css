@@ -396,23 +396,3 @@ footer {
 }
 
 
-/* Ajustements pour petits écrans */
-@media (max-width: 768px) {
-    .titre1 {
-        font-size: 6vw; 
-    }
-
-    .titre2 {
-        font-size: 5vw;
-    }
-}
-
-@media (max-width: 480px) {
-    .titre1 {
-        font-size: 8vw; 
-    }
-
-    .titre2 {
-        font-size: 6vw;
-    }
-}
