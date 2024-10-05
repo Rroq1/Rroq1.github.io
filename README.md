@@ -1,3 +1,6 @@
+
+![image](https://github.com/user-attachments/assets/da6bb11f-57b8-4364-a586-24b6234f3b06)
+
 # 🌐 Rroq1.github.io
 👋 Bonjour,
 - C'est mon tout premier site Web basé pour l'instant sur l'HTML et le CSS. Le but premier de ce projet est de faire une petite présentation du jeu vidéo Outer Wilds.
