@@ -9,11 +9,13 @@
     </head>
     <header>
 
-        <div class="menu">
-            <a href="#ow2" class="logo">
-                <img src="outer wilds.png" alt="Logo Outer Wilds">
-            </a>
-        </div>
+        <nav id="navbar">
+            <div class="menu">
+                <a href="#ow2" class="logo">
+                    <img src="outer wilds.png" alt="Logo Outer Wilds">
+                </a>
+            </div>
+        </nav>
         
         <section id="ow2"> 
             <video autoplay muted loop>
@@ -67,20 +69,7 @@
         </section>
         
         <script src="https://unpkg.com/scrollreveal"></script>
-        <script>
-            ScrollReveal({
-                reset : true,
-                distance: '50px',
-                duration: 2500,
-                delay: 100
-
-            });
-            
-            ScrollReveal().reveal('.mb-title, .tgr-title, .tgr-content', { delay: 500, origin: 'left'});
-            ScrollReveal().reveal('.mb-text, .ow-text', { delay: 500, origin: 'right'});
-            ScrollReveal().reveal('.ow-title', { delay: 500, origin: 'top'});
-            ScrollReveal().reveal('.tgr-text', { delay: 500, origin: 'bottom'});
-        </script>
+        <script src="index.js"></script>
 
        
     </body>
