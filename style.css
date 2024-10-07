@@ -166,11 +166,19 @@ section h1 {
 
 /*Navigation*/
 
+#navbar {
+    transition: top 0.3s ease; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
 .menu {
     position: fixed;
-    background-color: rgba(26, 25, 25, 0.3);
+    background-color: rgba(26, 25, 25, 0); 
     backdrop-filter: blur(20px); 
-    padding: 1% 2%; 
+    padding: 1% 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -178,6 +186,7 @@ section h1 {
     box-sizing: border-box;
     font-size: 130%;
     z-index: 100;
+    transition: background-color 0.3s ease;
 }
 
 
