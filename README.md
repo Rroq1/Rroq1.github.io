@@ -11,3 +11,4 @@
 
 ## 👀 Autres informations
 - Le site n'est pas encore aboutit à 100%, je dirais que c'est seulement la première page de couverture de mon projet !
+- Mon projet va inclure d'autre programme JavaScript pour obtenir plus d'interactions avec le siteweb.
