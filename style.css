@@ -67,7 +67,7 @@ section h1 {
     margin-bottom: 20px;
 }
 
-/* Smartphones en portrait */
+/* Smartphones */
 @media (max-width: 480px) {
     .menu {
         flex-direction: column;
