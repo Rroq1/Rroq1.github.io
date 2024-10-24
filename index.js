@@ -21,7 +21,7 @@ window.addEventListener('scroll', () => {
 ScrollReveal({
     reset: true,
     distance: '50px',
-    duration: 2500,
+    duration: 3000,
     delay: 100
 });
 
