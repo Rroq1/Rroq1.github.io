@@ -22,6 +22,7 @@
 }
 
 
+
 header {
     height: 80vh;
     position: relative;
@@ -67,7 +68,7 @@ section h1 {
     margin-bottom: 20px;
 }
 
-/* Smartphones */
+/* Smartphones en portrait */
 @media (max-width: 480px) {
     .menu {
         flex-direction: column;
@@ -103,7 +104,7 @@ section h1 {
         padding: 20px 10px;
     }
 
-    /* Ttéléphone */
+    /* Video section responsive (téléphone) */
     .tgr-content {
         flex-direction: column;
     }
@@ -186,7 +187,7 @@ section h1 {
     box-sizing: border-box;
     font-size: 130%;
     z-index: 100;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; 
 }
 
 
@@ -200,37 +201,6 @@ section h1 {
     opacity: 0.7;
 }
 
-.menu ul {
-    display: flex;
-    margin-left: auto; 
-    align-items: center;
-}
-
-
-.menu ul li {
-    margin-left: 30px; 
-    list-style: none;
-}
-
-.menu ul li a {
-    color: white;
-    font-size: 18px; 
-    text-transform: uppercase; 
-    padding: 10px 15px;
-    font-family: 'Andale Mono', monospace;
-    letter-spacing: 1px; 
-    transition: background-color 0.3s ease;
-    border-radius: 5px; 
-}
-
-.menu ul li a:hover {
-    background-color: rgba(254, 126, 32, 0.7); 
-    color: #fff; 
-}
-
-.menu ul li a:hover::after {
-    width: 100%;
-}
 
 
 
@@ -417,7 +387,7 @@ footer {
 .réseaux img {
     width: 40px;
     height: 40px;
-    transition: filter 0.3s ease, transform 0.3s ease;
+    transition: filter 0.3s ease; 
     filter: grayscale(100%); 
 }
 
@@ -443,7 +413,6 @@ footer {
     margin-left: 40%;
 }
 
-/*Crédits*/
 .footer-bottom {
     background-color: #2c2c2c; 
     padding: 10px 0;

@@ -7,7 +7,7 @@ window.addEventListener('scroll', () => {
     // Vérifie si l'utilisateur a fait défiler vers le bas ou vers le haut
     if (window.scrollY > navScroll) {
         // Défilement vers le bas
-        navbar.style.top = '-150px'; // Ajuste cette valeur si nécessaire
+        navbar.style.top = '-120px'; // Ajuste cette valeur si nécessaire
     } else {
         // Défilement vers le haut
         navbar.style.top = '0';
@@ -21,7 +21,7 @@ window.addEventListener('scroll', () => {
 ScrollReveal({
     reset: true,
     distance: '50px',
-    duration: 3000,
+    duration: 2500,
     delay: 100
 });
 
