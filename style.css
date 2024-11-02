@@ -39,7 +39,7 @@ header::before {
     z-index: -2;
 }
 
-/* Vidéo de fond responsive (tous les écrans) */
+/* Vidéo responsive (tous les écrans) */
 header video {
     position: absolute;
     top: 50%;
