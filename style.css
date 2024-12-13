@@ -39,7 +39,7 @@ header::before {
     z-index: -2;
 }
 
-/* Vidéo responsive (tous les écrans) */
+/* Vidéo de fond responsive (tous les écrans) */
 header video {
     position: absolute;
     top: 50%;
@@ -68,7 +68,7 @@ section h1 {
     margin-bottom: 20px;
 }
 
-/* Smartphones*/
+/* Smartphones en portrait */
 @media (max-width: 480px) {
     .menu {
         flex-direction: column;
