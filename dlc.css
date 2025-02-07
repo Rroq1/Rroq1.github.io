@@ -67,87 +67,12 @@ section h1 {
     margin-bottom: 20px;
 }
 
-/* Smartphones en portrait */
-@media (max-width: 480px) {
-    .menu {
-        flex-direction: column;
-        padding: 10px 0;
-    }
-
-    .menu .logo img {
-        height: 60px;
-    }
-
-    header {
-        height: 50vh;
-    }
-
-    header video {
-        min-width: 100%;
-        min-height: 100%;
-        width: 100%;
-        height: auto;
-    }
-
-    /* Mobius Digital Section */
-    #mb, #ow, #tgr {
-        padding: 20px 10px;
-    }
-
-    /* Video section responsive (téléphone) */
-    .tgr-content {
-        flex-direction: column;
-    }
-
-    .tgr-content iframe {
-        width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-    }
-
-    .tgr-text-container {
-        width: 100%;
-    }
-}
-
-/* Tablettes */
-@media (max-width: 768px) {
-
-    header {
-        height: 60vh;
-    }
-
-    header video {
-        min-width: 100%;
-        min-height: 100%;
-        width: 100%;
-        height: auto;
-    }
-
-    /* Mobius Digital Section */
-    #mb, #ow, #tgr {
-        padding: 20px 10px;
-    }
-
-    /* Video section responsive (tablette) */
-    .tgr-content {
-        flex-direction: column;
-    }
-
-    .tgr-content iframe {
-        width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-    }
-
-    .tgr-text-container {
-        width: 100%;
-    }
-}
-
-
 
 /*Navigation*/
+#navbar *::selection {
+    background-color: #398986;
+    color: #3d3d3d;
+}
 
 #navbar {
     transition: top 0.3s ease; 
@@ -183,41 +108,14 @@ section h1 {
     opacity: 0.7;
 }
 
-.menu ul {
-    display: flex;
-    margin-left: auto; 
-    align-items: center;
+
+/*Histoire*/
+#h *::selection {
+    background-color: #398986;
+    color: #fffcfc;
 }
 
-
-.menu ul li {
-    margin-left: 30px; 
-    list-style: none;
-}
-
-.menu ul li a {
-    color: white;
-    font-size: 18px; 
-    text-transform: uppercase; 
-    padding: 10px 15px;
-    font-family: 'Andale Mono', monospace;
-    letter-spacing: 1px; 
-    transition: background-color 0.3s ease;
-    border-radius: 5px; 
-}
-
-.menu ul li a:hover {
-    background-color: rgba(254, 126, 32, 0.7); 
-    color: #fff; 
-}
-
-.menu ul li a:hover::after {
-    width: 100%;
-}
-
-/*Mobius Digital*/
-
-#mb {
+#h {
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -226,32 +124,32 @@ section h1 {
 }
 
 
-.mb-section {
+.h-section {
     padding: 10px 20px;
     text-align: center;
 }
 
-.mb-container {
+.h-container {
     max-width: 800px;
     margin: 0 auto;
 }
 
 
-.mb-title {
+.h-title {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 20px;
     color: #333;
 }
 
-.mb-content {
+.h-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
 
-.mb-text {
+.h-text {
     font-size: 18px;
     line-height: 1.6;
     color: #555;
@@ -261,7 +159,13 @@ section h1 {
 
 /*Outer Wilds*/
 
-#ow {
+#o *::selection {
+    background-color: #ffffff;
+    color: #398986;
+}
+
+
+#o {
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -269,25 +173,25 @@ section h1 {
     background-color: #398986;
 }
 
-.ow-section {
+.o-section {
     padding: 10px 20px;
     text-align: center;
 }
 
-.ow-title {
+.o-title {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 20px;
     color: white;
 }
 
-.ow-container {
+.o-container {
     max-width: 800px;
     margin: 0 auto;
 }
 
 
-.ow-content {
+.o-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -295,7 +199,7 @@ section h1 {
 }
 
 
-.ow-text {
+.o-text {
     font-size: 18px;
     line-height: 1.6;
     color: white;
@@ -304,6 +208,11 @@ section h1 {
 
 
 /*Vidéo ytb*/
+
+#tgr *::selection {
+    background-color: #398986;
+    color: #fffcfc;
+}
 
 #tgr {
     display: flex;
@@ -376,6 +285,11 @@ footer {
     background-color: #3d3d3d;
 }
 
+.footer ::selection {
+    background-color: #398986;
+    color: #3d3d3d;
+}
+
 .titre1, .titre2 {
     font-size: 20px;
     margin-bottom: 10px;
@@ -437,4 +351,9 @@ footer {
 
 .footer-bottom p {
     margin: 0;
+}
+
+.footer-bottom ::selection {
+    background-color: #398986;
+    color: #3d3d3d;
 }
