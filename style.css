@@ -167,6 +167,11 @@ section h1 {
 
 /*Navigation*/
 
+#navbar *::selection {
+    background-color: #f18537;
+    color: #3d3d3d;
+}
+
 #navbar {
     transition: top 0.3s ease; 
     position: fixed; 
@@ -238,6 +243,11 @@ section h1 {
 
 /*Mobius Digital*/
 
+#mb *::selection {
+    background-color: #f18537;
+    color: white;
+}
+
 #mb {
     display: flex;
     justify-content: center; 
@@ -282,6 +292,11 @@ section h1 {
 
 /*Outer Wilds*/
 
+#ow *::selection {
+    background-color: #ffffff;
+    color: #f18537;
+}
+
 #ow {
     display: flex;
     justify-content: center; 
@@ -325,6 +340,11 @@ section h1 {
 
 
 /*Vidéo ytb*/
+
+#tgr *::selection {
+    background-color: #f18537;
+    color: white;
+}
 
 #tgr {
     display: flex;
@@ -397,6 +417,11 @@ footer {
     background-color: #3d3d3d;
 }
 
+.footer ::selection {
+    background-color: #f18537;
+    color: #3d3d3d;
+}
+
 .titre1, .titre2 {
     font-size: 20px;
     margin-bottom: 10px;
@@ -456,4 +481,9 @@ footer {
 
 .footer-bottom p {
     margin: 0;
+}
+
+.footer-bottom ::selection {
+    background-color: #f18537;
+    color: #3d3d3d;
 }
