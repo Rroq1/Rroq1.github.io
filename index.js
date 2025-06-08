@@ -25,7 +25,7 @@ ScrollReveal({
     delay: 100
 });
 
-ScrollReveal().reveal('.mb-title, .tgr-title, .tgr-content', { delay: 500, origin: 'left' });
-ScrollReveal().reveal('.mb-text, .ow-text', { delay: 500, origin: 'right' });
-ScrollReveal().reveal('.ow-title', { delay: 500, origin: 'top' });
+ScrollReveal().reveal('.mb-title, .tgr-title, .h-title, ow-text', { delay: 500, origin: 'left' });
+ScrollReveal().reveal('.mb-text, .o-text, .h-text', { delay: 500, origin: 'right' });
+ScrollReveal().reveal('.ow-title, .o-title', { delay: 500, origin: 'top' });
 ScrollReveal().reveal('.tgr-text', { delay: 500, origin: 'bottom' });
